@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
   return (
     <>
       <div className='w-full flex justify-center py-4 bg-sky-700 text-white font-bold'>
 
         <div className="container flex justify-between text-lg mx-8">
-          FarmaGen
+          <Link to='/home' className="text-2xl font-bold">FarmaGen</Link>
 
           <div className='flex gap-4'>
-            Home
+            <Link to='/home' className='hover:underline'>Início</Link>
             Categorias
             Cadastrar Categoria
             Produtos
