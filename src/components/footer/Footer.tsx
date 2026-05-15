@@ -13,7 +13,7 @@ function Footer() {
             FarmaGen, Grupo Gen | Copyright: {data}
           </p>
 
-          <p className='text-lg'>Nos siga nas redes sociais</p>
+          <p className='text-lg'>Nos siga nas redes sociais!</p>
 
           <div className='flex gap-2'>
             <a href="https://campanhaunipreco.com.br/wp-content/uploads/2025/10/capivara-televendas.png" target="_blank">
